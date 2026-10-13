@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.venv/
+*.pyc
+.streamlit/
+allocation_history.json
+*.log
