@@ -1,1 +1,7 @@
-[STRIPPED 86 bytes]
+streamlit
+pandas
+python-dotenv
+requests
+networkx
+pyvis
+google-generativeai
