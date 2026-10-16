@@ -1,29 +1,38 @@
-# FAIR - Fair Allocation & Inclusive Rotation Engine
-### SAP Labs Hackfest Bangalore 2026 | Theme 2 - Inclusive Workforce
+## FAIR - Fair Allocation & Inclusive Rotation Engine V3.2
+Tagline: We don't replace Jira. We fix who Jira assigns to.
+SAP Labs Hackfest Bangalore 2026 | Theme 2: Inclusive Workforce
 
-**Tagline:** We don't filter resumes. We fix who gets the next chance.
+## Golden Rule
+⚖️ No manager or employee can directly add/remove/swap by Name/ID. Model decides. Justice preserved.
 
-#### Problem
-After hiring, opportunity distribution is biased. 10% (Tier1, Senior, Male, Bangalore) hoard 80% projects. 90% (Tier3, Interns, PPO, Female, Non-Metro) with same SAP BTP skills get 0 projects.
+## What's New in V3.2 vs V2
+V2: Single workforce.csv 50 rows, 2 tabs Worker/Management
+V3.2: 3 CSVs (workers, skills, work_history) proxy for SuccessFactors + TechWolf + Jira, 5 Agents, 5 Screens Fluent 2, dynamic CSV update, shaded leave/resign history, fair replacement rerouting, no name dropdown
+Architecture
+Data: workers.csv (HR), skills.csv (Learning), work_history.csv (Delivery), allocation_history.json (audit), project_tasks.json
+Agents: Agent 0 Onboarding (append 3 CSVs), Agent 1 Skill Miner (synonym + embedding, private GitHub fallback via upskilling), Agent 2 Hoarding Detector (Hoarder vs High Performer), Agent 3 Matcher (FinalScore 0.30Skill+0.25Fairness+0.20Quality+0.15PPO+0.10*Inclusion + 6 Rules), Agent 4 Auditor (dynamic update + leave/resign + replacement rerouting + shaded UI + logs)
+Screens: Login (mock), Onboarding (3 CSV upload + sample template), Dashboard (Inclusion 38% CRITICAL, My Projects, Available Projects, Team Cards Loop style), Create Project (Description -> AI Suggest Skills -> Make Team -> 3 Teams -> Confirm triggers dynamic update), Workspace (Task checklist + Work Log + Team with shaded Resigned/On Leave + Replacement badge + Manage Team via description + View Details timeline + Audit)
+Key Fixes
+Loose 1 Skill exact match → synonym dict + embedding
+Loose 2 Leave abuse → Reason mandatory + model-only replacement + shaded history + audit log
+Loose 3 Availability static → Effort -10/-30/-60% + auto +20% after 7 days
+Loose 4 PPO bias → One-time boost + Bench>45
+Loose 5 ID mismatch → Document mock, prod uses MDM
+New: Resignation/Leave → Shaded #F5F5F5, history preserved, replacement downshift, employee self-service dropdown, HR audit
+Design
+Fluent 2 Tokens: Background #FAFAFA, Card #FFFFFF, Border #D1D1D1, Primary #0F6CBD, Radius 8px card / 4px controls, Shadow 0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.14), Font Segoe UI
 
-#### Solution - 4 AI Agents
-- **Agent 1 Skill Miner:** Real GitHub API check, handles public/private inclusive
-- **Agent 2 Hoarding Detector:** Calculates Inclusion Score 38% CRITICAL
-- **Agent 3 Opportunity Matcher (Main):** Forms balanced team Anchor + Growth, PPO Priority, Fairness >3 skip, Inclusion Tier3/Female/Private GitHub
-- **Agent 4 Inclusion Auditor:** Business impact, dynamic learning loop
+## Run
+python -m pip install streamlit pandas --only-binary=:all:
+python -m streamlit run app.py
 
-#### Dataset
-`workforce.csv` - 50 rows inclusive: 10 Seniors, 15 Intermediate, 8 Interns (3-8 mo), 6 Intern_PPO (6 mo, PPO Yes), 11 Fresher FTE. Columns: Gender, College Tier, Location, Github_Type public/private, Experience, Mentoring Score, PPO Status.
 
-#### Dynamic Learning
-When assignment confirmed, `assign_and_learn()` updates workforce.csv (Projects 0->1) and appends to allocation_history.json. Next recommendation differs. Proves AI learns.
+## Demo Story
+Login mock → Dashboard 38% CRITICAL, Priya PPO bench 55 days
+Create Project BTP Inventory App → AI Suggest Skills → Make Team → Rejects Arjun hoarder low quality, picks Rahul Anchor + Priya Growth
+Confirm → CSVs dynamic update, availability low, bench 0, Projects +1, next similar project Priya not candidate
+Workspace → Mark Priya on Leave (Reason Sick, 1 Week) → Replacement rerouting suggests Tanvi → Confirm → Priya shaded On Leave, Tanvi badge Worked as Replacement
+View Details timeline shows all logs
+GitHub Push
+Copy this folder to HastaksharHarsh/FAIR-Inclusive-Rotation-Engine, commit "V3.2 - 3 CSVs + Golden Rule + Dynamic + Leave Rerouting + Fluent 2"
 
-#### Tech Stack
-Streamlit, CrewAI, Gemini Flash, SAP BTP, HANA Cloud mock (CSV), Pyvis
-
-#### Architecture
-[Insert your 4 workflow images in assets/ folder]
-
-#### How to Run
-pip install -r requirements.txt
-streamlit run app.py

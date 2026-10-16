@@ -1,7 +1,11 @@
 streamlit
+<<<<<<< HEAD
 pandas
 python-dotenv
 requests
 networkx
 pyvis
 google-generativeai
+=======
+pandas
+>>>>>>> 5f10667 (V3.2 - 3 CSVs + Golden Rule + Fluent 2 + Dynamic Update)

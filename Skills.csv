@@ -1,0 +1,51 @@
+Employee_ID,Skills_Text,Certifications,Upskilling_Hours_3M,Past_Project_Summary,Github_Type,Github_Link
+101,"SAP BTP - 5 projects, CAP - senior, HANA - expert, Python - low upskilling","BTP Certified, CAP Certified, but low upskilling",1,"Worked on Customer Portal - on-time, rating 4.7",public,github.com/arjun0
+102,"SAP BTP - 5 projects, CAP - senior, HANA - expert, Python - low upskilling","BTP Certified, CAP - 22hrs upskilling, HANA - private GitHub",0,"Inventory App prototype - private GitHub, delivered in learning, 22hrs upskilling in BTP",private,github.com/priya1
+103,"SAP BTP - 5 projects, CAP - senior, HANA - expert, Python - low upskilling","BTP Certified, CAP Certified, but low upskilling",4,"Worked on Fiori Dashboard - delivered on-time, rating 4.2",public,github.com/rahul2
+104,"SAP BTP - 5 projects, CAP - senior, HANA - expert, Python - low upskilling","BTP Certified, CAP Certified, but low upskilling",2,"Worked on Inventory App - delivered on-time, rating 4.2",public,github.com/anjali3
+105,"SAP BTP - 5 projects, CAP - senior, HANA - expert, Python - low upskilling","BTP Certified, CAP Certified, but low upskilling",0,"Worked on HANA Migration - delivered on-time, rating 4.2",public,github.com/karan4
+106,"SAP BTP - high performer, CAP - 2 apps, HANA Cloud - certified, Mentoring expert","BTP Certified, CAP Learning",6,"Worked on Customer Portal - late by 3 days, rating 2.8",public,github.com/sneha5
+107,"SAP BTP - high performer, CAP - 2 apps, HANA Cloud - certified, Mentoring expert","CAP Certified, HANA Cloud Certified",11,"Worked on Fiori Dashboard - delivered on-time, rating 4.2",public,github.com/amit6
+108,"SAP BTP - high performer, CAP - 2 apps, HANA Cloud - certified, Mentoring expert","Fiori Certified, BTP Certified",17,"Worked on Customer Portal - delivered on-time, rating 4.2",private,github.com/pooja7
+109,"SAP BTP - high performer, CAP - 2 apps, HANA Cloud - certified, Mentoring expert","BTP Certified, CAP Learning",9,"Worked on Inventory App - late by 3 days, rating 2.8",public,github.com/vikram8
+110,"SAP BTP - high performer, CAP - 2 apps, HANA Cloud - certified, Mentoring expert","No Cert, Upskilling 22hrs",20,"Worked on HANA Migration - delivered on-time, rating 4.2",public,github.com/neha9
+111,"SAP BTP - 4 projects, late deliveries, low collaboration","BTP Learning Journey, Python Upskilling",9,"Worked on Customer Portal - on-time, rating 4.7",private,github.com/rohit10
+112,"SAP BTP - 4 projects, late deliveries, low collaboration","Fiori Certified, BTP Certified",10,"Worked on Inventory App - on-time, rating 4.7",public,github.com/isha11
+113,"SAP BTP - 4 projects, late deliveries, low collaboration","BTP Certified, CAP Learning",17,"Worked on Fiori Dashboard - on-time, rating 4.7",public,github.com/siddharth12
+114,"SAP BTP - 1 project, CAP - 1 app, HANA - learning, Python - 15hrs","CAP Certified, HANA Cloud Certified",14,"Worked on Inventory App - on-time, rating 4.7",private,github.com/meera13
+115,"SAP BTP - upskilled 18hrs, CAP - built app, HANA Cloud - certified","BTP Certified, CAP Learning",18,"Worked on Customer Portal - delivered on-time, rating 4.2",public,github.com/aditya14
+116,"SAP BTP - 1 project, CAP - 1 app, HANA - learning, Python - 15hrs","BTP Learning Journey, Python Upskilling",13,"Worked on HANA Migration - delivered on-time, rating 4.2",public,github.com/divya15
+117,"SAP BTP - upskilled 18hrs, CAP - built app, HANA Cloud - certified","BTP Certified, CAP Learning",9,"Worked on Inventory App - delivered on-time, rating 4.2",public,github.com/nikhil16
+118,"SAP BTP - 1 project, CAP - 1 app, HANA - learning, Python - 15hrs","Fiori Certified, BTP Certified",13,"Worked on Customer Portal - late by 3 days, rating 2.8",private,github.com/ananya17
+119,"SAP BTP - upskilled 18hrs, CAP - built app, HANA Cloud - certified","BTP Certified, CAP Learning",6,"Worked on HANA Migration - on-time, rating 4.7",public,github.com/harsh18
+120,"SAP BTP - 1 project, CAP - 1 app, HANA - learning, Python - 15hrs","BTP Certified, CAP Learning",13,"Worked on Inventory App - delivered on-time, rating 4.2",public,github.com/shreya19
+121,"SAP BTP - upskilled 18hrs, CAP - built app, HANA Cloud - certified","CAP Certified, HANA Cloud Certified",12,"Worked on Inventory App - late by 3 days, rating 2.8",public,github.com/suresh20
+122,"SAP BTP - upskilled 18hrs, CAP - built app, HANA Cloud - certified","BTP Certified, CAP Learning",15,"Worked on Inventory App - on-time, rating 4.7",public,github.com/kavya21
+123,"SAP BTP - 1 project, CAP - 1 app, HANA - learning, Python - 15hrs","BTP Certified, CAP Learning",16,"Worked on Customer Portal - late by 3 days, rating 2.8",public,github.com/manish22
+124,"SAP BTP - 1 project, CAP - 1 app, HANA - learning, Python - 15hrs","BTP Learning Journey, Python Upskilling",9,"Worked on Fiori Dashboard - late by 3 days, rating 2.8",public,github.com/ritu23
+125,"SAP BTP - 1 project, CAP - 1 app, HANA - learning, Python - 15hrs","Fiori Certified, BTP Certified",10,"Worked on Customer Portal - late by 3 days, rating 2.8",public,github.com/deepak24
+126,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","BTP Certified, CAP Learning",20,"Worked on Customer Portal - late by 3 days, rating 2.8",public,github.com/sakshi25
+127,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","Fiori Certified, BTP Certified",9,"Worked on Fiori Dashboard - delivered on-time, rating 4.2",public,github.com/varun26
+128,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","BTP Certified, CAP Learning",16,"Worked on HANA Migration - late by 3 days, rating 2.8",public,github.com/tanvi27
+129,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","No Cert, Upskilling 22hrs",14,"Worked on HANA Migration - on-time, rating 4.7",public,github.com/abhishek28
+130,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","BTP Learning Journey, Python Upskilling",15,"Worked on Customer Portal - late by 3 days, rating 2.8",public,github.com/nisha29
+131,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","BTP Certified, CAP Learning",20,"Worked on Fiori Dashboard - delivered on-time, rating 4.2",public,github.com/rajesh30
+132,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","No Cert, Upskilling 22hrs",15,"Worked on Customer Portal - delivered on-time, rating 4.2",private,github.com/swati31
+133,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","No Cert, Upskilling 22hrs",18,"Worked on Customer Portal - late by 3 days, rating 2.8",public,github.com/akash32
+134,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","CAP Certified, HANA Cloud Certified",18,"Worked on HANA Migration - late by 3 days, rating 2.8",public,github.com/preeti33
+135,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","BTP Certified, CAP Learning",20,"Worked on Fiori Dashboard - on-time, rating 4.7",public,github.com/mohit34
+136,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","BTP Learning Journey, Python Upskilling",13,"Worked on Inventory App - on-time, rating 4.7",public,github.com/riya35
+137,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","CAP Certified, HANA Cloud Certified",20,"Worked on Inventory App - on-time, rating 4.7",public,github.com/sanjay36
+138,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","BTP Certified, CAP Learning",22,"Worked on Fiori Dashboard - on-time, rating 4.7",private,github.com/aarti37
+139,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","CAP Certified, HANA Cloud Certified",18,"Worked on HANA Migration - on-time, rating 4.7",public,github.com/prateek38
+140,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","CAP Certified, HANA Cloud Certified",25,"Worked on Fiori Dashboard - late by 3 days, rating 2.8",public,github.com/simran39
+141,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","CAP Certified, HANA Cloud Certified",14,"Worked on Fiori Dashboard - on-time, rating 4.7",public,github.com/gaurav40
+142,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","CAP Certified, HANA Cloud Certified",16,"Worked on Inventory App - delivered on-time, rating 4.2",public,github.com/jyoti41
+143,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","Fiori Certified, BTP Certified",18,"Worked on HANA Migration - late by 3 days, rating 2.8",private,github.com/ankit42
+144,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","Fiori Certified, BTP Certified",26,"Worked on Inventory App - on-time, rating 4.7",public,github.com/bhavna43
+145,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","Fiori Certified, BTP Certified",22,"Worked on HANA Migration - on-time, rating 4.7",public,github.com/sahil44
+146,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","CAP Certified, HANA Cloud Certified",20,"Worked on HANA Migration - on-time, rating 4.7",public,github.com/megha45
+147,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","BTP Learning Journey, Python Upskilling",22,"Worked on Inventory App - delivered on-time, rating 4.2",public,github.com/tarun46
+148,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","BTP Certified, CAP Learning",25,"Worked on HANA Migration - late by 3 days, rating 2.8",private,github.com/komal47
+149,"SAP BTP - internship project, CAP - learning, HANA - basics, upskilled 22hrs","Fiori Certified, BTP Certified",12,"Worked on HANA Migration - late by 3 days, rating 2.8",public,github.com/vikas48
+150,"SAP BTP - fresher, CAP - course completed, Python - 12hrs","Fiori Certified, BTP Certified",19,"Worked on HANA Migration - delivered on-time, rating 4.2",public,github.com/larissa49
